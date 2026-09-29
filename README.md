@@ -190,14 +190,22 @@ Diwali-sales-DS-project/
    pip install pandas numpy matplotlib seaborn scikit-learn jupyter
    ```
 
-3. **Launch Jupyter Notebook**
+3. **Run Streamlit Dashboard (Recommended)**
+   - **Using the batch launcher**:
+     Double-click `run.bat` in the project root directory.
+   - **Using command line**:
+     ```powershell
+     # Activate the virtual environment
+     .\venv\Scripts\activate
+     # Launch Streamlit app
+     streamlit run app.py
+     ```
+
+4. **Or launch Jupyter Notebook**
    ```bash
    jupyter notebook
    ```
-
-4. **Open and run** `Dewali sales/Diwali Sales Project.ipynb`
-
-> **Note:** You may need to update the file path in the first code cell to match your local directory structure.
+   Open and run `Dewali sales/Diwali Sales Project.ipynb`.
 
 ---
 
